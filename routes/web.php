@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/testeando-desde-feature', function () {
+Route::get('/testeando-feature', function () {
     return view('welcome');
 });
 
